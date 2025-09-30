@@ -210,13 +210,14 @@ nav {
 
 /* Footer Section */
 footer {
-    padding: 40px 0;
-    background-color: #25272a;
+    padding: 40px 0 10px;
+    background-color: #000;
     color: #fff;
 }
 footer a {
     display: block;
     color: #d3cece;
+    font-size: 15px;
 }
 footer a:hover {
     color: #d3cece;
@@ -225,14 +226,68 @@ footer a:hover {
 footer p {
     color: #d3cece;
 }
+footer .last-row a {
+    display: inline-block;
+    font-size: 24px;
+}
+footer .row {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 25px 0;
+}
 
 /* Lower Footer Section */
 .low-foot {
     background-color: #000;
-    padding: 6px 0;
+    padding: 0px 0 25px;
     color: #fff;
 }
 .low-foot p {
-    text-align: center;
     margin-bottom: 0;
+    font-size: 16px;
+}
+.low-foot a {
+    color: #fff;
+}
+
+/* Print Nav Section */
+.print-nav {
+    padding: 10px 0 0;
+}
+.print-nav li {
+    box-shadow: none;
+}
+.print-nav a {
+    font-size: 21px;
+    color: #767676 !important;
+}
+.print-nav a:hover {
+    color: #000 !important;
+}
+.nav-btn {
+    background-color: #000;
+    font-size: 17px !important;
+    padding: 8px 10px;
+}
+.print-nav i {
+    font-size: 24px;
+}
+.print-nav .col-md-6 {
+    text-align: right;
+    padding-top: 5px;
+}
+
+/* Low Nav Section */
+.lows-nav:before,
+.lows-nav:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.lows-nav {
+    background-color: #000 !important;
+}
+.lows-nav a {
+    color: #fff !important;
+    font-size: 16px;
 }
